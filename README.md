@@ -8,7 +8,7 @@ A small service sends traces, metrics and logs over OpenTelemetry to a Collector
 
 **[Recorded results and charts](https://gerardrecinto.github.io/otel-observability-lab/)**
 
-I built it to have a small, honest place to see the three signals line up: a failed request shows up as a counter in Mimir, an error line in Loki, and a red span in Tempo, and the log line carries the trace ID that leads to the span.
+I built it to have a small place to see the three signals line up: a failed request shows up as a counter in Mimir, an error line in Loki, and a red span in Tempo, and the log line carries the trace ID that leads to the span.
 
 ## Try it
 
